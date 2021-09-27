@@ -1,0 +1,16 @@
+body {
+	background-image: url(../images/bge.png); 
+}
+
+div{
+	background-color: #a60808;
+	width: 40%;
+	padding: 10px;
+	border-radius: 15%;
+	color: white;
+	font-family: Georgia, serif;
+}
+
+button{
+	border-radius: 5%;
+}

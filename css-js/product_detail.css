@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #666666;
+  margin: 0;
+
+}
+
+/*Product Detail Display*/
+.row {
+  height: 100vh;
+  margin: 10vh 20vh 20vh 20vh;
+}
+
+.product-image {
+  height: 550px;
+  width: 500px;
+}
+
+.column1 {
+  float: left;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.prod-nm {
+  font-size: 40px;
+  font-family: 'Questrial', Century Gothic ;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #2db4b4;
+}
+
+.prod-desc {
+  font-weight: normal;
+  line-height: 1.6;
+  font-family: 'Questrial', Century Gothic ;
+}
+
+.btn-container {
+  margin: 50px 0;
+}
+
+.backtoshopbtn, .buybtn {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.5em 3.6em;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #FFF; 
+}
+
+.backtoshopbtn {
+  border: 2px solid #39a9a6; 
+  float: left; 
+  color: #39a9a6;
+  text-decoration: none;
+  padding: 1.4em 3.1em;
+}
+
+.buybtn {
+  background: #2a6161; 
+  float: left;
+  margin-left: 20px;
+}
+
+.buybtn:hover {
+  transition: 0.4s;
+  transform: scale(1.1);
+}

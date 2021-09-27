@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+  color: #666666;
+  margin: 0;
+
+}
+
+/* Cart Table Display */
+.emptycart-message {
+  margin: 200px;
+  text-align: center;
+  font-size: 40px;
+  color: #191919;
+}
+
+.cart-table-container {
+  min-height: 300px;
+  margin-top: 20vh;
+}
+
+table, td, th {
+   border: none;
+   border-collapse: collapse;
+   margin: auto;
+}
+
+.product-image {
+  max-width: 140px;
+  margin: 10px;
+  float: left;
+}
+
+th {
+  color: #191919;
+  padding: 10px 75px;
+  vertical-align: bottom;
+  font-weight: bold;
+}
+
+tr, td {
+  text-align: center;
+  color: #525252;
+  font-family: Helvetica;
+  font-size: 17px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.remove-button {
+  padding: 5px 10px;
+  margin: 13px 0 -10px 0;
+  border: none;
+  background-color: #dadada;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.remove-button:hover {
+  background-color: #999999;
+}
+
+.quantity-button {
+  padding: 7px;
+  cursor: pointer;
+}
+
+.total-price {
+  padding: 20px;
+  float: left;
+  margin: 0 0 0 120px;
+  font-weight: bold;
+}
+
+.checkout-button {
+  padding: 40px;
+  margin: 0 0 50px 140px;
+  border: none;
+  background-color: #191919;
+  cursor: pointer;
+  padding: 10px;
+  color: #fff;
+}
+
+.checkout-button:hover {
+  background-color: #070707;
+}
+
+/* Select Payment Section */
+select.modes {
+  width: 50%;
+  padding: 16px 20px;
+  border-radius: 4px;
+}
+
+.payment-container {
+  margin: 0 0 50px 200px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  max-width: 400px;
+  border: 1.3px solid #d3d3d3;
+  border-radius: 4px;
+}
+
+.payment-ttl {
+  color: #191919;
+  font-family: Arial;
+  font-size: 24px
+}
+
+.payment-subttl {
+  color: #191919;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+h5 {
+  color: #191919;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 5px;
+  float: right;
+}
+
+.select-payment {
+  margin: 0 0 13px 0;
+  padding: 10px;
+  font-family: Arial;
+}
+
+.payment-input {
+  padding: 10px 150px 10px 8px;
+  margin: -10px 20px 5px auto;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+}
+
+.submit-payment-button {
+  margin: 50px auto auto auto;
+  padding: 8px 145px;
+  border: none;
+  border-radius: 2px;
+  background-color: #424242;
+  color: white;
+  font-family: Arial;
+  cursor: pointer;
+}
+
+.submit-payment-button:hover {
+  background-color: #595959;
+}
+
+

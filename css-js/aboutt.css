@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+/* About Page Display */
+.bg-container {
+  position: relative;
+  text-align: center;
+  height: 145vh;
+}
+
+.bg-about {
+  width: 100%;
+}
+
+.about-title {
+  position: absolute;
+  top: 150px;
+  left: 60px;
+  color: #fff;
+  font-size: 140px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.about-info {
+  position: absolute;
+  top: 320px;
+  left: 85px;
+  text-align: left;
+  color: #fff;
+  line-height: 25px;
+  margin-right: 820px;
+}
+

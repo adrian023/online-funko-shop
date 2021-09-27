@@ -1,0 +1,64 @@
+/* Footer Section */
+#logo2 {
+  float: left;
+  max-height: 160px;
+  padding: 5px 80px;
+  cursor: pointer;
+}
+
+#icons-default {
+  height: 42px;
+  width: 43px;
+  margin: 10px 10px 0 8px;
+  cursor: pointer;
+}
+
+.footer-title-default {
+  font-family: Century Gothic;
+  font-weight: bold;
+  font-size: 25px;
+  color: #fff;
+}
+
+.footer-wrapper-default {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.single-footer-default {
+  margin: 40px 0;
+  width: 33%;
+  float: left;
+  text-align: left;
+  color: #fff;
+}
+
+.single-footer-default ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.single-footer-default ul a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-style: 12px;
+}
+
+.single-footer-default p {
+  width: 83%;
+  color: #c7c7c7;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.footer-default {
+  clear: both;
+  position: relative;
+  height: 250px;
+  z-index: 1;
+  margin-top: -200px;
+  background-color: #191919;
+}

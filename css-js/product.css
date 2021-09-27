@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 350px;
+}
+
+
+.flex > section {
+  align-items: center;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  text-align: center;
+  max-width: 400px;
+}
+
+.flex > section > p {
+  flex-grow: 1;
+}
+
+@media (max-width: 1600px) {
+  .flex > section {  
+    max-width: 370px;
+  }
+}
+
+.flex ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex aside {
+  width: 100%;
+}
+
+img {
+  width: 400px;
+  border-radius: 2px;
+}
+
+@media (max-width: 1600px) {
+  img {
+    width: 300px;
+  }
+}
+
+#product-name {
+  font-family: 'Questrial', Century Gothic ;
+  color: #48b3b3;
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+#product-description {
+  font-size: 15px;
+}
+
+.flex > section {
+  background: #fff;
+  padding: 1em;
+  margin: 0.5em;
+  border-radius: 4px;
+}
+
+
+.cartbtn, .buybtn {
+  font-family: "Montserrat", Sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.5em 3.6em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #FFF; 
+}
+
+.cartbtn {
+  background: #39a9a6;  
+  float: left;
+}
+
+.buybtn {
+  background: #2a6161; 
+  float: right;
+}
+
+.cartbtn:hover {
+  transition: 0.4s;
+  transform: scale(1.1);
+}
+
+.cartbtn:hover, .buybtn:hover {
+  transition: 0.4s;
+  transform: scale(1.1);
+}
+
+.shopmore {
+  margin: 100px;
+}
+
+.shopmorebtn {
+   border-radius: 4px;
+   background: #191919 !important;
+   color: #fff;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 15px;
+   padding: 15px;
+   width: 190px;
+   transition: all 0.4s;
+   cursor: pointer;
+   margin: 8px;
+ }
+
+ .shopmorebtn span {
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.4s;
+ }
+
+ .shopmorebtn span:after {
+   content: '\00bb';
+   color: #fff;
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   transition: 0.5s;
+ }
+
+ .shopmorebtn:hover span {
+   padding-right: 25px;
+   color: #fff;
+ }
+
+ .shopmorebtn:hover span:after {
+   opacity: 1;
+   right: 0;
+ }
+
+.flex ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.flex li {
+  background: #eee;
+  font-weight: 700;
+  padding: 0.3em 0.6em;
+  border-radius: 1em;
+}

@@ -1,0 +1,36 @@
+body {
+	background-image: url(../images/abg.jpg);
+	font-family: Georgia, serif;
+}
+
+h1{
+	margin-left:140px; 
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+div{
+	border-radius: 25px;
+	background-color: lightgreen;
+	width:	40%;
+}
+form{
+	margin-left: 20px;
+	font-size: 17px;
+	padding: 5px;
+}
+button{
+	border-radius: 15px;
+	border-color: black;
+	padding: 8px;
+	font-family: Georgia, serif;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: #50C878;
+	color: white;
+}
+

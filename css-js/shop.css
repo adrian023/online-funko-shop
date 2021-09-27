@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+  color: #666666;
+  margin: 0;
+
+}
+
+/* Product Display Section */
+.page-button-container {
+  margin-top: 100px;
+  clear: both;
+}
+
+.pgbtn {
+  display: inline-block;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.page-button {
+   color: #fff;
+   background: #191919;
+   text-align: center;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-size: 15px;
+   padding: 10px 18px;
+   margin: 0px 40px 0px 80px;
+   border: 3px solid #191919;
+ }

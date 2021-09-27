@@ -1,0 +1,110 @@
+
+.header-container {
+  padding: 10px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+  background: #191919 !important;
+  transition: 740ms ease;
+}
+
+/* Nav Menu Essentials */
+.nav-menuu,
+.nav-menuu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menuu ul {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  z-index: 99;
+}
+
+.nav-menuu li {
+  position: relative;
+  white-space: nowrap;
+  display: inline;
+}
+
+/* Nav Menu Container */
+#logo1 {
+  float: left;
+  max-height: 180px;
+  padding: 5px 80px;
+}
+
+#nav-menu-containerr {
+  float: right;
+  margin: 0;
+  padding: 0 40px;
+}
+
+/* Nav Menu Style */
+.nav-menuu a {
+  padding: 15px 30px;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.nav-menuu a:hover {
+  color: #02dada;
+  transition-duration: 0.4s;
+}
+
+/* Dropdown */
+.dropbtn {
+  background-color: inherit;
+  color: #191919;
+  padding: 0;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.dropbtn a {
+  background-color: #02dada !important;
+  color: #191919 !important; 
+}
+
+.dropbtn a:hover {
+  background-color: #00f7f7 !important;
+  transition: 0.7s !important;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #191919; color: #02dada;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
